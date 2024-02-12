@@ -30,7 +30,7 @@ app.get(
       res.status(403).json({ msg: "Access Denied" });
     }
   },
-  (req, res) => {
+  (req, res,) => {
     res.status(200).json({ msg: "Get Request" });
   }
 );
